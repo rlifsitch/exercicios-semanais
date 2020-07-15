@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var nome = prompt('Olá! Digite seu nome.');
+        switch(new Date().getHours()){
+            case (Date<12):
+                document.write('Bom dia ' + nome + '!');
+                break;
+            case (Date>18):
+                document.write('Boa noite ' + nome + '!' );
+                break;
+            default:
+                document.write('Boa tarde ' + nome + '!');
+        }   
+
+    </script>
+</body>
+</html>
